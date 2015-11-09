@@ -24,5 +24,8 @@
         "psr-4": {
             "mmshlrfsh\\myext\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "mmshlrfsh\\myext\\MyBootstrapClass"
     }
 }

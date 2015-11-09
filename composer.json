@@ -1,0 +1,28 @@
+{
+    "name": "mmshlrfsh/myext",
+    "description": "The Imagine integration for the Yii framework",
+    "keywords": ["yii2", "myext", "image", "helper"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/mmshlrfsh/myext/issues",
+        "forum": "http://forum.ncis.ir/",
+        "wiki": "http://www.nada-learn.ir/",
+        "source": "https://github.com/mmshlrfsh/myext"
+    },
+    "authors": [
+        {
+            "name": "Mohammad Mostafa Shahreki",
+            "email": "admin@nada-learn.ir"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "myext/myext": "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\myext\\": ""
+        }
+    }
+}
